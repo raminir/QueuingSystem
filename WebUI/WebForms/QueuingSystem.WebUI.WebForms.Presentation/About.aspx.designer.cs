@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QueuingSystem.WebUI
+namespace QueuingSystem.WebUI.WebForms.Presentation
 {
 
 
-    public partial class _Default
+    public partial class About
     {
     }
 }

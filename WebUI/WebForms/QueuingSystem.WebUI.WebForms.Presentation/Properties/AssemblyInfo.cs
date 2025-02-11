@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("QueuingSystem.WebUI")]
+[assembly: AssemblyTitle("QueuingSystem.WebUI.WebForms.Presentation")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("QueuingSystem.WebUI")]
+[assembly: AssemblyProduct("QueuingSystem.WebUI.WebForms.Presentation")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6ec921a8-05cb-4ac9-bf2f-08de7d340108")]
+[assembly: Guid("0549d645-ee1f-4548-8d2c-54197624ad12")]
 
 // Version information for an assembly consists of the following four values:
 //

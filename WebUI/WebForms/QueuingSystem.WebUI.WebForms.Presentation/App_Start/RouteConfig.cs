@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace QueuingSystem.WebUI
+namespace QueuingSystem.WebUI.WebForms.Presentation
 {
     public static class RouteConfig
     {

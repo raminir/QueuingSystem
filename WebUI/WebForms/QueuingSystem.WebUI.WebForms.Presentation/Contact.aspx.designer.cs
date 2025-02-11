@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QueuingSystem.WebUI
+namespace QueuingSystem.WebUI.WebForms.Presentation
 {
 
 

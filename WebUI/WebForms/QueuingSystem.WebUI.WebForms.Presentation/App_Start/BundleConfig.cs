@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace QueuingSystem.WebUI
+namespace QueuingSystem.WebUI.WebForms.Presentation
 {
     public class BundleConfig
     {
