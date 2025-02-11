@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "RRBank Gateway API",
+        Title = "Gateway API",
         Version = "v1",
     });
 });
