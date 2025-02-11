@@ -1,0 +1,34 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  },
+
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/queuing/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5100
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/queuing/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "SwaggerKey": "queuing"
+    }
+  ],
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "queuing",
+      "Config": [
+        {
+          "Name": "API Client",
+          "Version": "v1",
+          "Url": "https://localhost:5100/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
