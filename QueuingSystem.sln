@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuingSystem.QueuingServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuingSystem.ApiGateway", "QueuingSystem.ApiGateway\QueuingSystem.ApiGateway.csproj", "{333A6ADA-3CFF-463E-841C-A1351C3A29A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuingSystem.WebUI", "QueuingSystem.WebUI\QueuingSystem.WebUI.csproj", "{6EC921A8-05CB-4AC9-BF2F-08DE7D340108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{333A6ADA-3CFF-463E-841C-A1351C3A29A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{333A6ADA-3CFF-463E-841C-A1351C3A29A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{333A6ADA-3CFF-463E-841C-A1351C3A29A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC921A8-05CB-4AC9-BF2F-08DE7D340108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC921A8-05CB-4AC9-BF2F-08DE7D340108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC921A8-05CB-4AC9-BF2F-08DE7D340108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC921A8-05CB-4AC9-BF2F-08DE7D340108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{49E7DCE7-F78C-486B-AF31-8FA882C57ABF} = {F9CA8703-1DE0-44E3-84E8-C2C35B1AC5EC}
 		{333A6ADA-3CFF-463E-841C-A1351C3A29A6} = {26FB9B64-4BDE-4449-9709-AF178B18A3B1}
+		{6EC921A8-05CB-4AC9-BF2F-08DE7D340108} = {CE7A6379-8DDA-4E13-9D41-055EF569FE69}
 	EndGlobalSection
 EndGlobal
