@@ -2,7 +2,7 @@
 using Core.Abstraction.ApiServices.General;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Implementation.ApiServices
+namespace QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices
 {
     public class QueuingService : IQueuingService
     {

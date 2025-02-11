@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Implementation.ApiServices.General
+namespace QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices
 {
     public class ApiResult<T> : ApiResult, IApiResult<T>
     {

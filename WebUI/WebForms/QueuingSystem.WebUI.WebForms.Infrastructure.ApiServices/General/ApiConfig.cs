@@ -1,7 +1,7 @@
-﻿namespace Infrastructure.Implementation.ApiServices
+﻿namespace QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices
 {
     public class ApiConfig
     {
-        public string GetQueuing() => $"api/queuing/test";
+        public string GetQueuing() => $"https://localhost:5000/gateway/queuing/test";
     }
 }
