@@ -1,15 +1,16 @@
 ﻿using Core.Abstraction.ApiServices.General;
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
-using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices
 {
     public class ApiResult<T> : ApiResult, IApiResult<T>
     {
-        public T Value { get; private set; }
+        public T Value { get; set; }
 
         public ApiResult(HttpResponseMessage response) : base(response)
         {
@@ -24,7 +25,7 @@ namespace QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices
             if (IsSuccess)
             {
                 var content = await response.Content.ReadAsStringAsync();
-                Value = typeof(T) == typeof(string) ? (T)Convert.ChangeType(content, typeof(T)) : Desialize<T>(content);
+                Value = typeof(T) == typeof(string) ? (T)Convert.ChangeType(content, typeof(T)) : Deserialize<T>(content);
                 return;
             }
 
@@ -70,14 +71,27 @@ namespace QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices
 
                 ErrorMessage = content;
 
+
                 return;
             }
         }
-
-        protected TContent Desialize<TContent>(string content)
-            => JsonSerializer.Deserialize<TContent>(content, new JsonSerializerOptions
+       
+        public static TContent Deserialize<TContent>(string content)
+        {
+            try
             {
-                PropertyNameCaseInsensitive = true
-            });
+                var response = JsonConvert.DeserializeObject<ApiResult<TContent>>(content);
+                return response.Value; 
+
+            }
+            catch (JsonException ex)
+            {
+                throw ex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

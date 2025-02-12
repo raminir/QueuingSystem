@@ -1,6 +1,7 @@
 ﻿using Core.Abstraction.ApiServices;
 using Core.Abstraction.ApiServices.General;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices

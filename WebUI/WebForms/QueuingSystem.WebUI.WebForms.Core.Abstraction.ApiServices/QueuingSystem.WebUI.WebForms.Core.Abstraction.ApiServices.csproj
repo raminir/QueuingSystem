@@ -46,5 +46,11 @@
     <Compile Include="IQueuingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QueuingSystem.WebUI.WebForms.Core.Dto\QueuingSystem.WebUI.WebForms.Core.Dto.csproj">
+      <Project>{9DDBB4F3-630E-4197-9C8B-0120F72EFBBB}</Project>
+      <Name>QueuingSystem.WebUI.WebForms.Core.Dto</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

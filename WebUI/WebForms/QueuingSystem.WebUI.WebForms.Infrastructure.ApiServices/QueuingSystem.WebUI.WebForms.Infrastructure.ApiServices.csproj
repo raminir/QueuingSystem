@@ -120,6 +120,10 @@
       <Project>{1197263D-7822-4535-9166-787A16278D73}</Project>
       <Name>QueuingSystem.WebUI.WebForms.Core.Abstraction.ApiServices</Name>
     </ProjectReference>
+    <ProjectReference Include="..\QueuingSystem.WebUI.WebForms.Core.Dto\QueuingSystem.WebUI.WebForms.Core.Dto.csproj">
+      <Project>{9DDBB4F3-630E-4197-9C8B-0120F72EFBBB}</Project>
+      <Name>QueuingSystem.WebUI.WebForms.Core.Dto</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

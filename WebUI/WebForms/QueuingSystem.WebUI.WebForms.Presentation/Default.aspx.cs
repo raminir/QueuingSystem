@@ -18,11 +18,11 @@ namespace QueuingSystem.WebUI.WebForms.Presentation
         }
         protected async void Page_Load(object sender, EventArgs e)
         {
-            var queuing = await queuingService.Get();
-
-            if (queuing.IsSuccess)
+            var queuingServiceResults = await queuingService.GetTicketsInProgressForTodayService();
+            if (queuingServiceResults.IsSuccess)
             {
-                var apiResult = queuing.Value;
+                rpt.DataSource = queuingServiceResults.Value;
+                rpt.DataBind();
             }
         }
     }
