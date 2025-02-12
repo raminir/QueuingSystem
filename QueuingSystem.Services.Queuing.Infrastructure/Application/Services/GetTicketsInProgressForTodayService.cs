@@ -1,9 +1,9 @@
 ﻿
-using ByCheck.Services.Blog.Infrastructure.Application.Base;
 using MessageBus;
 using QueuingSystem.Services.Queuing.Core.Application.Base;
 using QueuingSystem.Services.Queuing.Core.Application.Outputs;
 using QueuingSystem.Services.Queuing.Core.Application.Services;
+using QueuingSystem.Services.Queuing.Infrastructure.Application.Base;
 
 namespace QueuingSystem.Services.Queuing.Infrastructure.Application.Services
 {

@@ -1,7 +1,7 @@
 ﻿using QueuingSystem.Services.Queuing.Core.Application.Base;
 using System.Net;
 
-namespace ByCheck.Services.Blog.Infrastructure.Application.Base
+namespace QueuingSystem.Services.Queuing.Infrastructure.Application.Base
 {
     public class ServiceResult<T> : IServiceResult<T>
     {
