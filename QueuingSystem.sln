@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuingSystem.Services.Queu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuingSystem.Services.Queuing.Core", "QueuingSystem.Services.Queuing.Core\QueuingSystem.Services.Queuing.Core.csproj", "{F3A18100-0F00-4F6D-A3C7-5DA426036591}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{E38ACCDD-9D1A-4255-8FF1-CE07FDC210D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuingSystem.Services.Notification", "QueuingSystem.Services.Notification\QueuingSystem.Services.Notification.csproj", "{5782354C-B6C5-4987-989E-F68B9CEB238D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{F3A18100-0F00-4F6D-A3C7-5DA426036591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3A18100-0F00-4F6D-A3C7-5DA426036591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3A18100-0F00-4F6D-A3C7-5DA426036591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5782354C-B6C5-4987-989E-F68B9CEB238D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5782354C-B6C5-4987-989E-F68B9CEB238D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5782354C-B6C5-4987-989E-F68B9CEB238D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5782354C-B6C5-4987-989E-F68B9CEB238D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +90,7 @@ Global
 		{9DDBB4F3-630E-4197-9C8B-0120F72EFBBB} = {B74076D8-7CB3-4CE1-ACE6-A2EC189D2F88}
 		{983E3F22-825E-4C1E-8B36-2D04350D1C06} = {CCDB257C-B470-4683-BC35-5CD3EA8A7A49}
 		{F3A18100-0F00-4F6D-A3C7-5DA426036591} = {CCDB257C-B470-4683-BC35-5CD3EA8A7A49}
+		{E38ACCDD-9D1A-4255-8FF1-CE07FDC210D3} = {F9CA8703-1DE0-44E3-84E8-C2C35B1AC5EC}
+		{5782354C-B6C5-4987-989E-F68B9CEB238D} = {E38ACCDD-9D1A-4255-8FF1-CE07FDC210D3}
 	EndGlobalSection
 EndGlobal
