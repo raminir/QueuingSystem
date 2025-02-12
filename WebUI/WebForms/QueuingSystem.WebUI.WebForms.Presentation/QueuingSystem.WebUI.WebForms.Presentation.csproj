@@ -270,6 +270,10 @@
       <Project>{1197263D-7822-4535-9166-787A16278D73}</Project>
       <Name>QueuingSystem.WebUI.WebForms.Core.Abstraction.ApiServices</Name>
     </ProjectReference>
+    <ProjectReference Include="..\QueuingSystem.WebUI.WebForms.Core.Dto\QueuingSystem.WebUI.WebForms.Core.Dto.csproj">
+      <Project>{9ddbb4f3-630e-4197-9c8b-0120f72efbbb}</Project>
+      <Name>QueuingSystem.WebUI.WebForms.Core.Dto</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices\QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices.csproj">
       <Project>{68a5b2de-07ff-4ec9-a3cf-fe33149ccf5f}</Project>
       <Name>QueuingSystem.WebUI.WebForms.Infrastructure.ApiServices</Name>
